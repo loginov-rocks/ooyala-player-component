@@ -67,3 +67,8 @@ typings/
 .idea/**/dictionaries/
 .idea/**/tasks.xml
 .idea/**/workspace.xml
+
+# Stencil
+.stencil/
+dist/
+www/
