@@ -59,3 +59,11 @@ typings/
 
 # next.js build output
 .next
+
+# macOS
+.DS_Store
+
+# IntelliJ IDEA
+.idea/**/dictionaries/
+.idea/**/tasks.xml
+.idea/**/workspace.xml
