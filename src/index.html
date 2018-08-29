@@ -20,20 +20,33 @@
     </ooyala-player-component>
 
     <form id="form">
-      <input id="embed-code" type="text" value="Y1ZHB1ZDqfhCPjYYRbCEOz0GR8IsVRm1">
+      <input id="embed-code-input" type="text" value="Y1ZHB1ZDqfhCPjYYRbCEOz0GR8IsVRm1">
       <button>Update component</button>
     </form>
+
+    <button id="pause-button">Pause</button>
+    <button id="play-button">Play</button>
 
     <script>
       const ooyalaPlayerComponent = document.querySelector('ooyala-player-component');
 
       const form = document.getElementById('form');
-      const embedCode = document.getElementById('embed-code');
+      const embedCodeInput = document.getElementById('embed-code-input');
+      const pauseButton = document.getElementById('pause-button');
+      const playButton = document.getElementById('play-button');
 
       form.addEventListener('submit', (event) => {
         event.preventDefault();
 
-        ooyalaPlayerComponent.embedCode = embedCode.value;
+        ooyalaPlayerComponent.embedCode = embedCodeInput.value;
+      });
+
+      pauseButton.addEventListener('click', () => {
+        ooyalaPlayerComponent.pause();
+      });
+
+      playButton.addEventListener('click', () => {
+        ooyalaPlayerComponent.play();
       });
     </script>
 

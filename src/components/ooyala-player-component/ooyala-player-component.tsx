@@ -1,4 +1,4 @@
-import { Component, Prop, Watch } from '@stencil/core';
+import { Component, Method, Prop, Watch } from '@stencil/core';
 
 import { Config } from './config';
 
@@ -15,6 +15,20 @@ export class OoyalaPlayerComponent {
   @Prop() playerBrandingId: string;
   @Prop() providerCode: string;
   @Prop({ mutable: true }) version: string = Config.defaultVersion;
+
+  @Method()
+  pause() {
+    if (this.player) {
+      this.player.pause();
+    }
+  }
+
+  @Method()
+  play() {
+    if (this.player) {
+      this.player.play();
+    }
+  }
 
   @Watch('embedCode')
   watchHandler(newEmbedCode: string, oldEmbedCode: string) {

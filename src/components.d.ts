@@ -14,6 +14,8 @@ export namespace Components {
   interface OoyalaPlayerComponent {
     'containerId': string;
     'embedCode': string;
+    'pause': () => void;
+    'play': () => void;
     'playerBrandingId': string;
     'providerCode': string;
     'version': string;
