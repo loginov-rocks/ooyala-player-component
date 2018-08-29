@@ -1,19 +1,19 @@
 import { TestWindow } from '@stencil/core/testing';
-import { MyComponent } from './my-component';
+import { OoyalaPlayerComponent } from './ooyala-player-component';
 
-describe('my-component', () => {
+describe('ooyala-player-component', () => {
   it('should build', () => {
-    expect(new MyComponent()).toBeTruthy();
+    expect(new OoyalaPlayerComponent()).toBeTruthy();
   });
 
   describe('rendering', () => {
-    let element: HTMLMyComponentElement;
+    let element: HTMLOoyalaPlayerComponentElement;
     let testWindow: TestWindow;
     beforeEach(async () => {
       testWindow = new TestWindow();
       element = await testWindow.load({
-        components: [MyComponent],
-        html: '<my-component></my-component>'
+        components: [OoyalaPlayerComponent],
+        html: '<ooyala-player-component></ooyala-player-component>'
       });
     });
 

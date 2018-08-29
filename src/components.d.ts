@@ -11,11 +11,11 @@ import '@stencil/core';
 
 export namespace Components {
 
-  interface MyComponent {
+  interface OoyalaPlayerComponent {
     'first': string;
     'last': string;
   }
-  interface MyComponentAttributes extends StencilHTMLAttributes {
+  interface OoyalaPlayerComponentAttributes extends StencilHTMLAttributes {
     'first'?: string;
     'last'?: string;
   }
@@ -23,26 +23,26 @@ export namespace Components {
 
 declare global {
   interface StencilElementInterfaces {
-    'MyComponent': Components.MyComponent;
+    'OoyalaPlayerComponent': Components.OoyalaPlayerComponent;
   }
 
   interface StencilIntrinsicElements {
-    'my-component': Components.MyComponentAttributes;
+    'ooyala-player-component': Components.OoyalaPlayerComponentAttributes;
   }
 
 
-  interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {}
-  var HTMLMyComponentElement: {
-    prototype: HTMLMyComponentElement;
-    new (): HTMLMyComponentElement;
+  interface HTMLOoyalaPlayerComponentElement extends Components.OoyalaPlayerComponent, HTMLStencilElement {}
+  var HTMLOoyalaPlayerComponentElement: {
+    prototype: HTMLOoyalaPlayerComponentElement;
+    new (): HTMLOoyalaPlayerComponentElement;
   };
 
   interface HTMLElementTagNameMap {
-    'my-component': HTMLMyComponentElement
+    'ooyala-player-component': HTMLOoyalaPlayerComponentElement
   }
 
   interface ElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'ooyala-player-component': HTMLOoyalaPlayerComponentElement;
   }
 
 
