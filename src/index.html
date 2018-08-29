@@ -4,7 +4,7 @@
 
     <meta charset="utf-8">
 
-    <title>Ooyala Player Component</title>
+    <title>Ooyala Player Component Demo</title>
 
     <script src="/build/ooyala-player.js"></script>
 
@@ -16,8 +16,26 @@
       embed-code="Y1ZHB1ZDqfhCPjYYRbCEOz0GR8IsVRm1"
       player-branding-id="d70e58f6e29446e883095e2f8abfca8b"
       provider-code="c0cTkxOqALQviQIGAHWY5hP0q9gU">
-      <div id="container"></div>
+      <div id="container">Loading player...</div>
     </ooyala-player-component>
+
+    <form id="form">
+      <input id="embed-code" type="text" value="Y1ZHB1ZDqfhCPjYYRbCEOz0GR8IsVRm1">
+      <button>Update component</button>
+    </form>
+
+    <script>
+      const ooyalaPlayerComponent = document.querySelector('ooyala-player-component');
+
+      const form = document.getElementById('form');
+      const embedCode = document.getElementById('embed-code');
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        ooyalaPlayerComponent.embedCode = embedCode.value;
+      });
+    </script>
 
   </body>
 </html>
