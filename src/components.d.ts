@@ -12,12 +12,18 @@ import '@stencil/core';
 export namespace Components {
 
   interface OoyalaPlayerComponent {
-    'first': string;
-    'last': string;
+    'containerId': string;
+    'embedCode': string;
+    'playerBrandingId': string;
+    'providerCode': string;
+    'version': string;
   }
   interface OoyalaPlayerComponentAttributes extends StencilHTMLAttributes {
-    'first'?: string;
-    'last'?: string;
+    'containerId'?: string;
+    'embedCode'?: string;
+    'playerBrandingId'?: string;
+    'providerCode'?: string;
+    'version'?: string;
   }
 }
 
