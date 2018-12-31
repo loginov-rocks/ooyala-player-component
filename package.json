@@ -1,6 +1,6 @@
 {
   "name": "ooyala-player-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ooyala Player Component",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
@@ -12,8 +12,8 @@
   "scripts": {
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "stencil test --spec",
+    "test:watch": "stencil test --spec --watch"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,8 @@
   "devDependencies": {
     "@stencil/core": "^0.16.1",
     "@types/jest": "^23.3.10",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0"
   },
   "jest": {
     "transform": {
