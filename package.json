@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1oginov/ooyala-player-component.git"
+    "url": "git+https://github.com/loginov-rocks/ooyala-player-component.git"
   },
   "keywords": [
     "ooyala",
@@ -27,14 +27,14 @@
   "author": "Danila Loginov <danila@loginov.rocks> (https://loginov.rocks)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/1oginov/ooyala-player-component/issues"
+    "url": "https://github.com/loginov-rocks/ooyala-player-component/issues"
   },
-  "homepage": "https://github.com/1oginov/ooyala-player-component",
+  "homepage": "https://github.com/loginov-rocks/ooyala-player-component",
   "dependencies": {},
   "devDependencies": {
-    "@stencil/core": "^0.12.2",
-    "@types/jest": "^23.3.1",
-    "jest": "^23.5.0"
+    "@stencil/core": "^0.16.1",
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0"
   },
   "jest": {
     "transform": {

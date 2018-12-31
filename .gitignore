@@ -64,9 +64,9 @@ typings/
 .DS_Store
 
 # IntelliJ IDEA
-.idea/**/dictionaries/
-.idea/**/tasks.xml
-.idea/**/workspace.xml
+.idea/dictionaries/
+.idea/tasks.xml
+.idea/workspace.xml
 
 # Stencil
 .stencil/
