@@ -1,7 +1,7 @@
 # ooyala-player-component
 
 [![NpmVersion](https://img.shields.io/npm/v/ooyala-player-component.svg)](https://www.npmjs.com/package/ooyala-player-component)
-[![Build Status](https://travis-ci.org/loginov-rocks/ooyala-player-component.svg?branch=master)](https://travis-ci.org/loginov-rocks/ooyala-player-component)
+[![Build Status](https://travis-ci.com/loginov-rocks/ooyala-player-component.svg?branch=master)](https://travis-ci.com/loginov-rocks/ooyala-player-component)
 [![dependencies Status](https://david-dm.org/loginov-rocks/ooyala-player-component/status.svg)](https://david-dm.org/loginov-rocks/ooyala-player-component)
 [![devDependencies Status](https://david-dm.org/loginov-rocks/ooyala-player-component/dev-status.svg)](https://david-dm.org/loginov-rocks/ooyala-player-component?type=dev)
 
