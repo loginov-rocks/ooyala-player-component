@@ -1,7 +1,8 @@
 # ooyala-player-component
 
 [![npm](https://img.shields.io/npm/v/ooyala-player-component)](https://www.npmjs.com/package/ooyala-player-component)
-[![CI](https://github.com/loginov-rocks/ooyala-player-component/workflows/CI/badge.svg)](https://github.com/loginov-rocks/ooyala-player-component/actions)
+[![CI](https://github.com/loginov-rocks/ooyala-player-component/actions/workflows/ci.yml/badge.svg)](https://github.com/loginov-rocks/ooyala-player-component/actions/workflows/ci.yml)
+[![CD](https://github.com/loginov-rocks/ooyala-player-component/actions/workflows/cd.yml/badge.svg)](https://github.com/loginov-rocks/ooyala-player-component/actions/workflows/cd.yml)
 
 ## Usage
 
